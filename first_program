@@ -1,0 +1,20 @@
+using System;
+
+namespace HelloApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Tom";        // определяем переменную и инициализируем ее
+
+            Console.WriteLine(name);    // Tom
+
+            name = "\n\"Bob\"";         // меняем значение переменной
+
+            Console.WriteLine(name);    // Bob
+
+            Console.Read();
+        }
+    }
+}
