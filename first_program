@@ -1,4 +1,4 @@
-using System;
+/* using System;
 
 namespace HelloApp
 {
@@ -17,4 +17,26 @@ namespace HelloApp
             Console.Read();
         }
     }
-}
+} */
+
+/*using System;
+
+namespace Begginer
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Tom";
+            int age = 34;
+            bool isEmployed = true;
+            double weight = 75.65;
+
+            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Age: {age}");
+            Console.WriteLine($"Weight: {weight}");
+            Console.WriteLine($"Is eployed? {isEmployed}");
+        }
+    }
+}*/
+
