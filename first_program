@@ -19,7 +19,7 @@ namespace HelloApp
     }
 } */
 
-/*using System;
+/* using System;
 
 namespace Begginer
 {
@@ -40,3 +40,20 @@ namespace Begginer
     }
 }*/
 
+
+/* using System;
+
+namespace Beginner
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}! How are you?");
+
+            Console.ReadKey();
+        }
+    }
+} */
