@@ -57,3 +57,30 @@ namespace Beginner
         }
     }
 } */
+
+/* using System;
+
+namespace Beginner
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("How old are you? ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter your height: ");
+            double height = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter your salary, $: ");
+            decimal salary = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine($"Name: {name} Age: {age} Height: {height} Salary: {salary}$");
+
+        }
+    }
+} */
+
