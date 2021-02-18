@@ -50,3 +50,41 @@ namespace Firstproject
         }
     }
 } */
+
+/*
+using System;
+
+namespace Loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the number 5 or 10:");
+            /*string number = Console.ReadLine();
+            switch(number)
+            {
+                case "5":
+                    Console.WriteLine("The number is 5");
+                    break;
+                case "10":
+                    Console.WriteLine("The number is 10");
+                    break;
+                default:
+                    Console.WriteLine("This number is unknown!");
+                    break;
+            }*/
+            /* 
+            int number = Convert.ToInt32(Console.ReadLine());
+            if (number == 5 || number == 10)
+            {
+                Console.WriteLine("The number is 5 or 10");
+            }
+            else
+            {
+                Console.WriteLine("This number is unknown!");
+            }
+            Console.ReadKey();
+        }
+    }
+}*/
