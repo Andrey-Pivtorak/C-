@@ -88,3 +88,33 @@ namespace Loops
         }
     }
 }*/
+
+/*
+using System;
+
+namespace loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the deposit amount, $:");
+            double amount = Convert.ToDouble(Console.ReadLine());
+            if (amount < 100)
+            {
+                amount += amount * 0.05;
+            }
+            else if (amount > 100 && amount < 200)
+            {
+                amount += amount * 0.07;
+            }
+            else
+            {
+                amount += amount * 0.1;
+            }
+            Console.WriteLine($"Yout total amount is {amount}$.");
+            Console.ReadKey();
+        }
+    }
+}
+*/
