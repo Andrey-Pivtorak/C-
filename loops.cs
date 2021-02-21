@@ -118,3 +118,29 @@ namespace loops
     }
 }
 */
+
+/*
+using System;
+
+namespace loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the investment amount: ");
+            decimal amount = Convert.ToDecimal(Console.ReadLine());
+            Console.Write("Enter the number of months: ");
+            int num_months = Convert.ToInt32(Console.ReadLine());
+            int count = 1;
+            
+            while (count <= num_months)
+            {
+                amount += amount * 0.07M;
+                count++;
+            }
+            Console.WriteLine($"You'll have total amount {amount}$");
+        }
+    }
+}*/
+
