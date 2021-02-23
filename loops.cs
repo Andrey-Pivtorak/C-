@@ -25,7 +25,8 @@ namespace Firstproject
 
         }
     }
-} */
+}
+*/
 
 /*
 using System;
@@ -49,7 +50,8 @@ namespace Firstproject
             Console.ReadKey();
         }
     }
-} */
+}
+*/
 
 /*
 using System;
@@ -87,7 +89,8 @@ namespace Loops
             Console.ReadKey();
         }
     }
-}*/
+}
+*/
 
 /*
 using System;
@@ -142,5 +145,39 @@ namespace loops
             Console.WriteLine($"You'll have total amount {amount}$");
         }
     }
-}*/
+}
+*/
 
+/*
+using System;
+
+namespace loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the deposit amount, $:");
+            double amount = Convert.ToDouble(Console.ReadLine());
+            double bonus = 15;
+            double total_amount = 0;
+            if (amount < 100)
+            {
+                amount += amount * 0.05;
+            }
+            else if (amount > 100 && amount < 200)
+            {
+                amount += amount * 0.07;
+            }
+            else
+            {
+                amount += amount * 0.1;
+            }
+            Console.WriteLine($"Yout total amount is {amount}$.");
+            total_amount += amount + bonus;
+            Console.WriteLine($"Yout total amount with bonus is {total_amount}$.");
+            Console.ReadKey();
+        }
+    }
+}
+*/
