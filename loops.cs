@@ -181,3 +181,51 @@ namespace loops
     }
 }
 */
+
+/*
+using System;
+
+namespace loops
+{
+    class Program
+    {
+        static  void Main(string[] args)
+        {
+            Console.WriteLine("Enter two numbers:");
+            double number1 = Convert.ToDouble(Console.ReadLine());
+            double number2 = Convert.ToDouble(Console.ReadLine());
+            double result = 0;
+            Console.WriteLine("Enter the operation number: \n" +
+                "1. Addition operation\n" +
+                "2. Subtraction operaion\n" +
+                "3. Multiplication operation\n" +
+                "4. Devision operation\n");
+            int number = Convert.ToInt32(Console.ReadLine());
+            switch(number)
+            {
+                case 1:
+                    result += number1 + number2;
+                    Console.WriteLine($"You have selected the addition operation: {number1} + {number2} = {result}");
+                    break;
+                case 2:
+                    result += number1 - number2;
+                    Console.WriteLine($"You have selected the subtraction operation: {number1} - {number2} = {result}");
+                    break;
+                case 3:
+                    result += number1 * number2;
+                    Console.WriteLine($"You have selected the multiplication operation: {number1} * {number2} = {result}");
+                    break;
+                case 4:
+                    result += number1 / number2;
+                    Console.WriteLine($"You have selected the devision operation: {number1} / {number2} = {result}");
+                    break;
+                default:
+                    Console.WriteLine("There is unknown operation!");
+                    break;
+            }
+            Console.ReadKey();
+        }
+    }
+}
+*/
+
