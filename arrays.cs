@@ -96,3 +96,35 @@ namespace SortApp
 }
 */
 
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the numbers of elements:\t");
+            int elementsCount = int.Parse(Console.ReadLine());
+            
+            int[] myArray = new int[elementsCount];
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write($"\nEnter the element of array with index {i}:\t");
+                myArray[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("\nThe array out: ");
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write(myArray[i] + " ");
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
+*/
