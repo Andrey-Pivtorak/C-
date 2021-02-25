@@ -23,6 +23,37 @@ namespace loops
 /*
 using System;
 
+namespace loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            while (true)
+            {
+                Console.Write("Enter number 1: ");
+                int number1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter number 2: ");
+                int number2 = Convert.ToInt32(Console.ReadLine());
+
+                if (number1 < 0 || number1 > 10 || number2 < 0 || number2 > 10 )
+                {
+                    Console.WriteLine("The numbers should matter 1 - 10. Please, try again!");
+                }
+                else
+                {
+                    Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
+                    break;
+                }
+            }
+        }
+    }
+}
+*/
+
+/*
+using System;
+
 namespace Firstproject
 {
     class Program
