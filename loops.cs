@@ -1,6 +1,28 @@
 /*
 using System;
 
+namespace loops
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("This is the multiplication table:");
+            int begin = 1;
+            int end = 9;
+
+            for (; begin <= end; begin++)
+            {
+                Console.WriteLine($"{begin} * {begin} = {begin * begin}");
+            }
+        }
+    }
+}
+*/
+
+/*
+using System;
+
 namespace Firstproject
 {
     class Program
