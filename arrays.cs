@@ -128,3 +128,35 @@ namespace StudyProject
     }
 }
 */
+
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.Write("Enter the number of array elements: ");
+            int elementsNumber = int.Parse(Console.ReadLine());
+            int[] myArray = new int[elementsNumber];
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write($"\nEnter the element of array with index {i}:\t");
+                myArray[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("\nThe array out: ");
+
+            for (int i = myArray.Length-1; i >= 0; i--)
+            {
+                Console.Write(myArray[i] + " ");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+*/
