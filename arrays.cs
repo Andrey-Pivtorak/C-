@@ -132,6 +132,7 @@ namespace StudyProject
 /*
 using System;
 
+// Entering numbers from the keyboard in reverce order
 namespace StudyProject
 {
     class Program
