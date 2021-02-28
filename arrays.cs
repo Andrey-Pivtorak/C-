@@ -161,3 +161,42 @@ namespace StudyProject
     }
 }
 */
+
+// The sum of even and odd numbers
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] myArray = { 34, 67, 24, 52, 4, 26, 8, 12 };
+            
+            int sumEvenNumbers = 0;
+            int sumOddNumbers = 0;
+
+            Console.WriteLine("Array output: ");
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write(myArray[i] + " ");
+
+                if (myArray[i] % 2 == 0)
+                {
+                    sumEvenNumbers += myArray[i];
+                }
+                else
+                {
+                    sumOddNumbers += myArray[i];
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\nThe sum of even numbers is: " + sumEvenNumbers);
+            Console.WriteLine("The sum of odd numbers is: " + sumOddNumbers);
+            Console.ReadKey();
+        }
+    }
+}
+*/
