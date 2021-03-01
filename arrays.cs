@@ -200,3 +200,41 @@ namespace StudyProject
     }
 }
 */
+
+// The min and max value of array.
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {
+        static  void Main(string[] args)
+        {
+            int[] myArray = { 7, 3, 8, 2, 7, 9 };
+            int minValue = myArray[0];
+            int maxValue = myArray[0];
+
+            Console.WriteLine("Our array is:");
+
+            for (int i = 1; i < myArray.Length; i++)
+            {
+                Console.Write(myArray[i] + " ");
+
+                if (minValue > myArray[i])
+                {
+                    minValue = myArray[i];
+                }
+                else if (maxValue < myArray[i])
+                {
+                    maxValue = myArray[i];
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("\nThe least element of this array is " + minValue);
+            Console.WriteLine("\nThe greatest element of this array is " + maxValue);
+            Console.ReadKey();
+        }
+    }
+}
+*/
