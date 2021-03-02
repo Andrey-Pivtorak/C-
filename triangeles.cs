@@ -63,6 +63,7 @@ namespace Triangles
                 }
                 Console.WriteLine();
             }
+            
             Console.ReadKey();
         }
     }
