@@ -29,3 +29,43 @@ namespace StudyMethods
     }
 }
 */
+
+// Entering the symbols from the keyboard
+/*
+using System;
+
+namespace MethodsProject
+{
+    class Program
+    {
+        static void PrintString(string[] myArray)
+        {
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write(myArray[i] + " ");
+            }
+        }
+
+        static void EnterSymb(uint countNumb, string[] myArray)
+        {
+            for (int i = 0; i < countNumb; i++)
+            {
+                myArray[i] = Console.ReadLine();
+            }
+        }
+
+        static  void Main(string[] args)
+        {
+            Console.Write("How many symbols want you enter? ");
+            int numbSymbols = int.Parse(Console.ReadLine());
+            string[] symbolArray = new string[numbSymbols];
+
+            EnterSymb(numbSymbols, symbolArray);
+            Console.WriteLine("Your array is:");
+            PrintString(symbolArray);
+            
+            Console.ReadKey();               
+        }
+    }
+}
+*/
