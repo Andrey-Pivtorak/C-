@@ -283,3 +283,38 @@ namespace MethodProject
     }
 }
 */
+
+// github !!! Resize array
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {        
+        static void Main(string[] args)
+        {
+            int[] myArray = { 2, 6, 1 };
+
+            Console.WriteLine("The first array is:");
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write(myArray[i] + " ");
+            }
+            
+            Array.Resize(ref myArray, 2);
+
+            Console.WriteLine();
+            Console.WriteLine("The second array is:");
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.Write(myArray[i] + " ");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
