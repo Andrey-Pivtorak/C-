@@ -284,7 +284,7 @@ namespace MethodProject
 }
 */
 
-// github !!! Resize array
+// Resize array
 /*
 using System;
 
