@@ -355,4 +355,5 @@ namespace StudyProject
             Resize(ref strArray, 10);
         }
     }
-}*/
+}
+*/
