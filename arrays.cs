@@ -318,3 +318,41 @@ namespace StudyProject
     }
 }
 */
+
+// Resize array_2
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {
+        // all data types !!! actual !!!
+        static void Resize<T>(ref T[] array, int newSize)
+        {
+            T[] newArray = new T[newSize];
+
+            for (int i = 0; i < array.Length && i < newArray.Length; i++)
+                newArray[i] = array[i];
+            array = newArray;
+        }
+
+        static void Resize(ref int[] array, int newSize)
+        {
+            int[] newArray = new int[newSize];
+
+            for (int i = 0; i < array.Length && i < newArray.Length; i++)            
+                newArray[i] = array[i];            
+            array = newArray;
+        }
+
+        static void Main(string[] args)
+        {
+            int[] myArray = { 4, 7, 2 };
+
+            string[] strArray = { "How", "are", "you?" };
+
+            Resize(ref strArray, 10);
+        }
+    }
+}*/
