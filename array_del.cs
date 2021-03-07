@@ -1,5 +1,5 @@
-// github !!! delete the element in the beginning/end/index of array
-/*
+// delete the element in the beginning/end/index of array
+
 using System;
 
 namespace StudyProject
@@ -89,4 +89,3 @@ namespace StudyProject
         }
     }
 }
-*/
