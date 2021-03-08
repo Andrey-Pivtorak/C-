@@ -357,3 +357,31 @@ namespace StudyProject
     }
 }
 */
+
+// The output an array
+/*
+using System;
+
+namespace StudyProject
+{    
+    class Program
+    {
+        static void PrintArray(int[] myArray, int index = 0)
+        {
+            if (index < myArray.Length)
+            {
+                Console.Write(myArray[index] + " ");
+                PrintArray(myArray, index + 1);
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            int[] myArray = { 5, 3, 7, 9, 4 };
+            PrintArray(myArray);
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
