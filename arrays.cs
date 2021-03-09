@@ -385,3 +385,30 @@ namespace StudyProject
     }
 }
 */
+
+// The sum of elemments the array
+/*
+using System;
+
+namespace StudyProject
+{
+    class Program
+    {
+        static int Sum(int[] myArray, int index = 0)
+        {
+            if (index >= myArray.Length)
+                return 0;
+                         
+            return myArray[index] + Sum(myArray, index + 1);                                               
+        }
+
+        static void Main(string[] args)
+        {
+            int[] myArray = { 3, 8, 4, 9, 1, 5 };
+
+            Console.WriteLine(Sum(myArray));
+
+            Console.ReadKey();
+        }
+    }
+}*/
