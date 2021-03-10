@@ -1,5 +1,5 @@
 // The sum of digits of a number using recursion
-/*
+
 using System;
 
 namespace StudyProject
@@ -42,4 +42,3 @@ namespace StudyProject
         }
     }
 }
-*/
