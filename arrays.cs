@@ -276,7 +276,6 @@ namespace MethodProject
         {
             int[] myArray = GetRandomArray(10, -20, 10);
             int result = IndexOff(myArray, 23);
-
             Console.WriteLine(result);
             Console.ReadKey();
         }
