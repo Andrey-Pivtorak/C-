@@ -70,7 +70,7 @@ namespace BaseApp
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)  // DbContextOptionsBuilder - встан парам підключення
         {
-            // налаштовується строка підключення до MS SQL Server.
+            // налаштовується строка підключення до MS SQL Server
             optionsBuilder.UseSqlServer("Server=desktop-cd37fhg;Database=baseappdb;Trusted_Connection=True;");
         }
     }
