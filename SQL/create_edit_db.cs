@@ -107,5 +107,36 @@ namespace BaseApp
 }
 */
 
+/*
+ApplicationContext.cs
 
+using Microsoft.EntityFrameworkCore;
 
+namespace BaseApp
+{
+   public class ApplicationContext : DbContext //DbContext - визначає контекст даних, що використовуються для взаємодії з БД
+    {
+        public DbSet<User> Users { get; set; }  // DbSet<User> - представляє набір об'єктів, які зберігаються в БД
+        public ApplicationContext()
+        {
+            Database.EnsureCreated();   // перевіряє, чи є створена БД. Якщо немає, то створює її
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)  // DbContextOptionsBuilder - встан парам підключення
+        {
+            // налаштовується строка підключення до MS SQL Server.
+            optionsBuilder.UseSqlServer("Server=Name of my server;Database=baseappdb;Trusted_Connection=True;");
+        }
+    }
+}
+*/
+    
+/*
+appsettings.json
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=Name of my server;Database=baseappdb;Trusted_Connection=True;"
+  }
+}
+*/
