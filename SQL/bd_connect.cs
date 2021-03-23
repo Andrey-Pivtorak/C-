@@ -85,4 +85,3 @@ namespace BaseAppConnect
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
-
