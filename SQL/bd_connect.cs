@@ -44,3 +44,45 @@ namespace BaseAppConnect
     }
 }
 */
+
+/*
+BaseAppConnect.cs
+
+using Microsoft.EntityFrameworkCore;
+
+#nullable disable
+
+namespace BaseAppConnect
+{
+    public partial class baseappdbContext : DbContext
+    {
+        public baseappdbContext()
+        {
+        }
+
+        public baseappdbContext(DbContextOptions<baseappdbContext> options)
+            : base(options)
+        {
+        }
+
+        public virtual DbSet<User> Users { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=desktop-cd37fhg;Database=baseappdb;Trusted_Connection=True;");
+            }
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.HasAnnotation("Relational:Collation", "Cyrillic_General_CI_AS");
+
+            OnModelCreatingPartial(modelBuilder);
+        }
+
+        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    }
+}
+
