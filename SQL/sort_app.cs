@@ -85,3 +85,21 @@ namespace SortApp.Models
         }
     }
 }
+*/
+
+/*
+SortState.cs
+
+namespace SortApp.Models
+{
+    public enum SortState
+    {
+        NameAsc,    // по имени по возростанию
+        NameDesc,   // по имени по убыванию
+        AgeAsc,     // по возрасту по возростанию
+        AgeDesc,    // по возрасту по убыванию
+        CompanyAsc, // по компании по взрростанию
+        CompanyDesc    // по компании по убыванию
+    }
+}
+*/
