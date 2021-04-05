@@ -217,3 +217,41 @@ namespace SortApp
     }
 }
 */
+
+/*
+Startup.cs
+
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using SortApp.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace SortApp
+{
+    public class Startup
+    {
+        public void ConfigureServices(IServiceCollection services)
+        {
+            string connection = "Server = desktop-cd37fhg; Database = userstoredb; Trusted_Connection = True";
+            services.AddDbContext<UsersContext>(option =>
+            option.UseSqlServer(connection));
+            services.AddControllersWithViews();
+        }
+
+        public void Configure(IApplicationBuilder app)
+        {
+            app.UseDeveloperExceptionPage();
+            app.UseStaticFiles();
+
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+        }
+    }
+}
+*/
