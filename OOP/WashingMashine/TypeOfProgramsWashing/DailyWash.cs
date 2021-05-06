@@ -1,4 +1,3 @@
-
 namespace WashingMashine.TypeOfProgramsWashing
 {
     public class DailyWash : PatternProgramsWashing
