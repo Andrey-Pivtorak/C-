@@ -1,0 +1,7 @@
+namespace WashingMashine.TypeOfProgramsWashing
+{
+    public class LinensWash : PatternProgramsWashing
+    {
+        public LinensWash() : base("Постельное белье", 50, 3, 1200, "Включен") { }
+    }
+}
